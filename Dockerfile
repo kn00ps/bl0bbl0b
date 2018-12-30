@@ -7,7 +7,7 @@ RUN git config --global user.email "furde6652@multi-service-seller.ga"
 RUN git config --global user.name "kn000ps"
 RUN git clone https://github.com/kn00ps/dahproxy.git
 RUN sed -i "s/github.com/kn00ps:yoyobaba123A*@github.com/" dahproxy/.git/config
-RUN touch dahproxy/tettttttttt
+RUN touch dahproxy/000000000000000
 WORKDIR /dahproxy
 RUN git add *
 RUN git commit -m 'teeeeeeesss'
