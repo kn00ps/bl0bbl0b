@@ -8,7 +8,7 @@ RUN git config --global user.name "kn000ps"
 RUN git clone https://github.com/kn00ps/dahproxy.git
 RUN sed -i "s/github.com/kn00ps:yoyobaba123A*@github.com/" dahproxy/.git/config
 RUN touch dahproxy/tettttttttt
-RUN git add dahproxy/*
+RUN ls dahproxy/
 RUN git commit -m 'teeeeeeesss'
 RUN git push
 #RUN tar -xvf /root/prof0_0.tar.gz -C /root/Qookie
